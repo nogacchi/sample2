@@ -8,7 +8,7 @@ gem 'rails', '~> 5.2.3'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Bootstrap
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '3.4.1'
 
 # rails-controller
 gem 'rails-controller-testing', '~> 1.0', '>= 1.0.4'
@@ -26,6 +26,9 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'mini_racer', platforms: :ruby
 
 gem "actionview", ">= 5.1.6.2"
+
+# jquery
+gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
